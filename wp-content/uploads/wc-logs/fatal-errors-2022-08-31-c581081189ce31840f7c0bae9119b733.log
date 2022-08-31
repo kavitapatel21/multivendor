@@ -1,0 +1,24 @@
+2022-08-31T07:55:52+00:00 CRITICAL Uncaught Error: Call to undefined function findCartItemKey() in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): cart_icon_click_script('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(3058): do_action('wp_footer')
+#4 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone\footer.php(78): wp_footer()
+#5 C:\xampp\htdocs\multivendor\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone\pag in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 193
+
+2022-08-31T07:56:25+00:00 CRITICAL Uncaught Error: Call to undefined function findCartItemKey() in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): cart_icon_click_script('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(3058): do_action('wp_footer')
+#4 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone\footer.php(78): wp_footer()
+#5 C:\xampp\htdocs\multivendor\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone\pag in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 193
+

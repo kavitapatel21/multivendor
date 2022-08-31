@@ -1,0 +1,59 @@
+2022-08-29T12:47:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function elex_discount_price(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multivendor\wp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 20
+
+2022-08-29T12:48:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function elex_discount_price(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multivendor\wp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 20
+
+2022-08-29T12:48:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function elex_discount_price(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multivendor\wp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 20
+
+2022-08-29T12:48:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function elex_discount_price(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multivendor\wp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 20
+
+2022-08-29T12:48:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function elex_discount_price(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multivendor\wp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 20
+
+2022-08-29T13:17:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_auto_add_coupons_categories_based(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): wc_auto_add_coupons_categories_based(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1396): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::outp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 16
+

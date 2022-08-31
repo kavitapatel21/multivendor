@@ -1,0 +1,66 @@
+2022-08-30T04:56:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function discount_based_on_total(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:89
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): discount_based_on_total(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 C:\xampp\htdocs\multiv in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 89
+
+2022-08-30T04:59:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_auto_add_coupons_categories_based(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): wc_auto_add_coupons_categories_based(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1396): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::outp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2022-08-30T05:00:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_auto_add_coupons_categories_based(), 1 passed in C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): wc_auto_add_coupons_categories_based(Object(WC_Cart))
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1396): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::outp in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2022-08-30T06:20:16+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:20:32+00:00 CRITICAL syntax error, unexpected '?' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:21:33+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:22:09+00:00 CRITICAL syntax error, unexpected ''echo  do_shortcode("[woocomme' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:23:55+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:25:06+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:26:03+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 31
+
+2022-08-30T06:27:21+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 32
+
+2022-08-30T06:27:49+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 32
+
+2022-08-30T06:28:05+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 32
+
+2022-08-30T11:32:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:188
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): cart_items_display('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cart_it...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 188
+
+2022-08-30T11:32:53+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:195
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): cart_items_display('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_cart_it...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 195
+
