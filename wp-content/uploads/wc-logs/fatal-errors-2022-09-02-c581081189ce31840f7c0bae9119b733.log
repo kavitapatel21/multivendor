@@ -1,0 +1,69 @@
+2022-09-02T06:13:35+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php:82
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-header.php(19): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\multivendor\wp-content\themes\twenty in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 82
+
+2022-09-02T06:54:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 192
+
+2022-09-02T06:55:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 192
+
+2022-09-02T08:29:35+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:154
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\shortcodes.php(356): custom_mini_cart('', '', 'quadlayers-mini...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(quadla...', 'do_shortcode_ta...', '[quadlayers-min...')
+#3 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php(167): do_shortcode('[quadlayers-min...')
+#4 C:\xampp\htdocs\multivendor\wp-settings.php(555): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\multivendor\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\multivendor\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\multivendor\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\multivendor\index.php(17): require('C:\ in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 154
+
+2022-09-02T09:36:48+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 224
+
+2022-09-02T10:49:19+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 185
+
+2022-09-02T11:06:09+00:00 CRITICAL syntax error, unexpected ')', expecting end of file in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 237
+
+2022-09-02T12:18:04+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php:100
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-header.php(19): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-ch in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 100
+
+2022-09-02T12:19:12+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php:102
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-header.php(19): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\multivendor\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\multivendor\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#6 C:\xampp\htdocs\multivendor\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#7 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-ch in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\template-parts\header\site-nav.php on line 102
+

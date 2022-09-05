@@ -153,35 +153,62 @@ function your_custom_menu_item ($items)
     return $items;
 }*/
 
-add_action('wp_footer', 'cart_icon_click_script');
-function cart_icon_click_script()
-{
-?>
-   
-
-    <script>
-        $('.remove-item').click(function() {
-            $.ajax({
-                type: "POST",
-                url: '<?php echo admin_url('admin-ajax.php'); ?>',
-                data: {
-                    action: 'remove_item_from_cart',
-                    'cart_item_key': String($(this).data('cart-item-key'))
-                }
-            });
-        });
-    </script>
-<?php
-}
-
+//remove item from cart
 function remove_item_from_cart()
 {
-    $cart_item_key = $_POST['cart_item_key'];
-    if ($cart_item_key) {
-        WC()->cart->remove_cart_item($cart_item_key);
+    $cart = WC()->instance()->cart;
+    $id = $_POST['product_id'];
+    $cart_id = $cart->generate_cart_id($id);
+    $cart_item_id = $cart->find_product_in_cart($cart_id);
+
+    if ($cart_item_id) {
+        $cart->set_quantity($cart_item_id, 0);
         return true;
     }
     return false;
 }
+
 add_action('wp_ajax_remove_item_from_cart', 'remove_item_from_cart');
 add_action('wp_ajax_nopriv_remove_item_from_cart', 'remove_item_from_cart');
+
+
+function ajax_my_cart_qty() {
+
+    // Set item key as the hash found in input.qty's name
+    $cart_item_key = $_POST['hash'];
+    // Get the array of values owned by the product we're updating
+    $threeball_product_values = WC()->cart->get_cart_item( $cart_item_key );
+
+    // Get the quantity of the item in the cart
+    $threeball_product_quantity = apply_filters( 'woocommerce_stock_amount_cart_item', apply_filters( 'woocommerce_stock_amount', preg_replace( "/[^0-9\.]/", '', filter_var($_POST['quantity'], FILTER_SANITIZE_NUMBER_INT)) ), $cart_item_key );
+
+    // Update cart validation
+    $passed_validation  = apply_filters( 'woocommerce_update_cart_validation', true, $cart_item_key, $threeball_product_values, $threeball_product_quantity );
+
+    // Update the quantity of the item in the cart
+    if ( $passed_validation ) {
+        WC()->cart->set_quantity( $cart_item_key, $threeball_product_quantity, true );
+    }
+    die();
+
+}
+add_action('wp_ajax_my_cart_qty', 'ajax_my_cart_qty');
+add_action('wp_ajax_nopriv_my_cart_qty', 'ajax_my_cart_qty');
+
+//Upadte quantity without update art btn
+/**add_action( 'wp_footer', function() {
+	?><script>
+	jQuery( function( $ ) {
+		let timeout;
+		$('.woocommerce').on('change', 'input.qty', function(){
+			if ( timeout !== undefined ) {
+				clearTimeout( timeout );
+			}
+			timeout = setTimeout(function() {
+				$("[name='update_cart']").trigger("click"); // trigger cart update
+			}, 1000 ); // 1 second delay, half a second (500) seems comfortable too
+		});
+	} );
+	</script><?php
+	
+} );
