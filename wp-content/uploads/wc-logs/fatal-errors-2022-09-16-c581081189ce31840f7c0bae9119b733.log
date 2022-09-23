@@ -1,0 +1,46 @@
+2022-09-16T09:20:15+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1357): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php(131): WC_Cart->set_quantity('3636638817772e4...', 4, true)
+#6 C:\xampp\htdocs\multi in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2022-09-16T11:58:50+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:137
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): ajax_my_cart_qty('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_cart...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 137
+
+2022-09-16T11:59:41+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:137
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): ajax_my_cart_qty('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_cart...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 137
+
+2022-09-16T12:01:18+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:136
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): ajax_my_cart_qty('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_cart...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 136
+
+2022-09-16T12:01:55+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:136
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): ajax_my_cart_qty('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_my_cart...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 136
+

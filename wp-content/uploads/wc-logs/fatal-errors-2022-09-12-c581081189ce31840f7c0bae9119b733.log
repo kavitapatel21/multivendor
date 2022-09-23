@@ -1,0 +1,73 @@
+2022-09-12T06:08:31+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 326
+
+2022-09-12T06:10:02+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 326
+
+2022-09-12T06:11:51+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 326
+
+2022-09-12T06:12:38+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 337
+
+2022-09-12T06:14:39+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 337
+
+2022-09-12T06:15:30+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 326
+
+2022-09-12T06:15:58+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:313
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 313
+
+2022-09-12T06:18:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on array in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:316
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 316
+
+2022-09-12T06:19:18+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on array in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:316
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 316
+
+2022-09-12T06:20:06+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on array in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php:316
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(307): remove_item_from_cart('')
+#1 C:\xampp\htdocs\multivendor\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\multivendor\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\multivendor\wp-admin\admin-ajax.php(187): do_action('wp_ajax_remove_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 316
+
+2022-09-12T07:31:32+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 329
+
+2022-09-12T09:52:18+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php on line 264
+

@@ -8,55 +8,64 @@ Version:    1.0
 License:    GNU General Public License v2 or later
 */
 
-.primary-navigation > div > .menu-wrapper li:last-child {
-    margin-right: 0;
-    display: inherit;
+.primary-navigation>div>.menu-wrapper li:last-child {
+  margin-right: 0;
+  display: inherit;
 }
 
-a.cart-contents.menu-item{
-    background-color: #28303d;
-    border-radius: 10px;
-    color: rgb(184, 178, 178) !important;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 1;
-    padding: 3px 7px;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
+a.cart-contents.menu-item {
+  background-color: #28303d;
+  border-radius: 10px;
+  color: rgb(184, 178, 178) !important;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.mycart{
-    display:none !important;
-    background-color: #d1e4dd !important;
+.mycart {
+  display: none !important;
+  background-color: #d1e4dd !important;
 }
 
 
 
 .table-image {
-  
-    thead {
-      td, th {
-        border: 0;
-        color: #666;
-        font-size: 0.8rem;
-      }
-    }
-    
-    td, th {
-      vertical-align: middle;
-      text-align: center;
-      
-      &.qty {
-        max-width: 2rem;
-      }
+
+  thead {
+
+    td,
+    th {
+      border: 0;
+      color: #666;
+      font-size: 0.8rem;
     }
   }
-  
-  .price {
-    margin-left: 1rem;
+
+  td,
+  th {
+    vertical-align: middle;
+    text-align: center;
+
+    &.qty {
+      max-width: 2rem;
+    }
   }
-  
-  .modal-footer {
-    padding-top: 0rem;
-  }
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
+
+/**hide apply cuopon field on cart page*/
+.coupon{
+  display: none;
+
+}

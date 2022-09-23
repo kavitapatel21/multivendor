@@ -1,0 +1,24 @@
+2022-09-13T04:22:56+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 32768 bytes) in C:\xampp\htdocs\multivendor\wp-content\plugins\dc-woocommerce-multi-vendor\classes\class-wcmp-ajax.php on line 3725
+
+2022-09-13T07:23:58+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 32768 bytes) in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-assets.php on line 1
+
+2022-09-13T07:54:38+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1357): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php(129): WC_Cart->set_quantity('6c8349cc7260ae6...', 1, true)
+#6 C:\xampp\htdocs\multi in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
+2022-09-13T07:54:39+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php:225
+Stack trace:
+#0 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(651): WC_Cart_Totals->get_items_from_cart()
+#1 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(143): WC_Cart_Totals->calculate_item_totals()
+#2 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#3 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1357): WC_Cart->calculate_totals()
+#5 C:\xampp\htdocs\multivendor\wp-content\themes\twentytwentyone-child\functions.php(129): WC_Cart->set_quantity('6c8349cc7260ae6...', 2, true)
+#6 C:\xampp\htdocs\multi in C:\xampp\htdocs\multivendor\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 225
+
